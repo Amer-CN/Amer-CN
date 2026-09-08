@@ -11,15 +11,6 @@
   </a>
 </p>
 
-### 施工进度（由贪吃蛇实时汇报）
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amer-CN/Amer-CN/output/github-contribution-grid-snake-dark.gif" />
-    <img alt="贪吃蛇正在吃掉贡献格子" src="https://raw.githubusercontent.com/Amer-CN/Amer-CN/output/github-contribution-grid-snake.gif" />
-  </picture>
-</p>
-
 ### 质量验收
 
 <p align="center">
