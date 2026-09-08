@@ -1,0 +1,55 @@
+<svg width="420" height="330" viewBox="0 0 420 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="正在施工，请勿撸猫">
+  <defs>
+    <filter id="pencil" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"/>
+    </filter>
+  </defs>
+  <g filter="url(#pencil)" stroke="#5c6773" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 招牌 -->
+    <path d="M100 28 Q216 21 332 27 L335 71 Q217 77 98 69 Z"/>
+    <text x="216" y="58" font-family="'Kaiti SC','KaiTi','STKaiti','Noto Serif SC',serif" font-size="21" fill="#5c6773" stroke="none" text-anchor="middle">正在施工，请勿撸猫</text>
+    <!-- 吊绳 -->
+    <path d="M216 71 Q212 94 216 114"/>
+    <!-- 安全帽 -->
+    <path d="M200 141 Q202 117 216 115 Q230 117 232 141"/>
+    <path d="M194 143 Q216 137 238 143"/>
+    <!-- 耳朵 -->
+    <path d="M198 138 L184 118 L206 126"/>
+    <path d="M234 138 L248 118 L226 126"/>
+    <!-- 脸 -->
+    <path d="M198 146 Q190 158 197 169 Q216 181 235 169 Q242 158 234 146"/>
+    <!-- 胡须 -->
+    <path d="M186 150 L168 146" stroke-width="1.8"/>
+    <path d="M186 156 L168 158" stroke-width="1.8"/>
+    <path d="M246 150 L264 146" stroke-width="1.8"/>
+    <path d="M246 156 L264 158" stroke-width="1.8"/>
+    <!-- 身体 -->
+    <path d="M204 176 Q188 196 186 222 Q185 244 208 246 L224 246 Q247 244 246 222 Q244 196 228 176"/>
+    <!-- 爪子 -->
+    <path d="M204 246 Q209 236 214 246"/>
+    <path d="M218 246 Q223 236 228 246"/>
+    <!-- 地面 -->
+    <path d="M168 252 Q216 258 264 252" stroke-width="1.6"/>
+    <!-- 尾巴（摇摆） -->
+    <g>
+      <path d="M246 232 Q272 240 280 214 Q284 196 268 192"/>
+      <animateTransform attributeName="transform" type="rotate" values="-7 246 232;9 246 232;-7 246 232" dur="3.6s" repeatCount="indefinite"/>
+    </g>
+    <!-- 眼睛（每 5 秒眨一次） -->
+    <circle cx="206" cy="152" r="2.6" fill="#5c6773" stroke="none">
+      <animate attributeName="opacity" values="1;1;0;1;1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="226" cy="152" r="2.6" fill="#5c6773" stroke="none">
+      <animate attributeName="opacity" values="1;1;0;1;1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- 鼻子和嘴 -->
+    <path d="M213 160 L219 160 L216 164 Z" fill="#5c6773" stroke="none"/>
+    <path d="M211 167 Q216 171 221 167" stroke-width="1.8"/>
+    <!-- 音符（飘动） -->
+    <g>
+      <text x="296" y="136" font-size="30" fill="#5c6773" stroke="none" font-family="serif">♪</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
