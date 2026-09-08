@@ -14,13 +14,13 @@
 ### 施工数据（每日自动更新）
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Amer-CN/Amer-CN/output/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="个人概览" />
+  <img src="https://raw.githubusercontent.com/Amer-CN/Amer-CN/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="个人概览" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Amer-CN/Amer-CN/output/profile-summary-card-output/tokyonight/3-stats.svg" alt="贡献统计" />
+  <img src="https://raw.githubusercontent.com/Amer-CN/Amer-CN/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="贡献统计" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Amer-CN/Amer-CN/output/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="最常提交语言" />
+  <img src="https://raw.githubusercontent.com/Amer-CN/Amer-CN/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="最常提交语言" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Amer-CN&hide_border=true&theme=tokyonight" alt="连续贡献" />
